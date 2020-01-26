@@ -1,0 +1,91 @@
+{
+  "_args": [
+    [
+      "@lottiefiles/lottie-player@0.3.0-rc2",
+      "D:\\lottie-kfc"
+    ]
+  ],
+  "_from": "@lottiefiles/lottie-player@0.3.0-rc2",
+  "_id": "@lottiefiles/lottie-player@0.3.0-rc2",
+  "_inBundle": false,
+  "_integrity": "sha512-02SemAfJnaipCR6ToF5mN4AgO8BqDfXJ0RHErh3zhARhLZJV0fdrij9/DdKbRhm2lxsMXVUrebRd8xd3n9O/Tw==",
+  "_location": "/@lottiefiles/lottie-player",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@lottiefiles/lottie-player@0.3.0-rc2",
+    "name": "@lottiefiles/lottie-player",
+    "escapedName": "@lottiefiles%2flottie-player",
+    "scope": "@lottiefiles",
+    "rawSpec": "0.3.0-rc2",
+    "saveSpec": null,
+    "fetchSpec": "0.3.0-rc2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@lottiefiles/lottie-player/-/lottie-player-0.3.0-rc2.tgz",
+  "_spec": "0.3.0-rc2",
+  "_where": "D:\\lottie-kfc",
+  "author": {
+    "name": "Jawish Hameed",
+    "email": "jawish@lottiefiles.com"
+  },
+  "browserslist": [
+    "> 3%"
+  ],
+  "bugs": {
+    "url": "https://github.com/LottieFiles/lottie-player/issues"
+  },
+  "dependencies": {
+    "lit-element": "^2.2.1",
+    "lottie-web": "^5.5.9"
+  },
+  "description": "Lottie animation and Telegram Sticker player web components.",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "express": "^4.17.1",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "1.18.2",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.2"
+  },
+  "files": [
+    "dist/"
+  ],
+  "homepage": "https://lottiefiles.com/web-player",
+  "keywords": [
+    "lottie",
+    "animation",
+    "lottiefiles",
+    "web component",
+    "component",
+    "lit-element",
+    "player"
+  ],
+  "license": "MIT",
+  "main": "dist/lottie-player.js",
+  "module": "dist/lottie-player.js",
+  "name": "@lottiefiles/lottie-player",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LottieFiles/lottie-player.git"
+  },
+  "scripts": {
+    "build": "yarn clean && parcel build src/lottie-player.ts --detailed-report 50 --out-file lottie-player.js",
+    "clean": "rimraf dist/*",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "start": "parcel src/index.html"
+  },
+  "types": "dist/lottie-player.d.ts",
+  "version": "0.3.0-rc2"
+}
