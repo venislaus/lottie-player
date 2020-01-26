@@ -24,12 +24,6 @@ Note: The Telegram Sticker TGS player has been moved to it's own [GitHub reposit
 
 ##### Lottie Player:
 
-- Import from CDN.
-
-```html
-<script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
-```
-
 - Import from local node_modules directory.
 
 ````html
